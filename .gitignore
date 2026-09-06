@@ -1,0 +1,88 @@
+# ==========================================
+# LEARNTWIN - Python / ML / DL
+# ==========================================
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ---------- Virtual Environment ----------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- Python Packages ----------
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ---------- Environment Variables ----------
+.env
+.env.*
+!.env.example
+
+# ---------- OS Files ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Windows ----------
+*.lnk
+
+# ---------- IDE ----------
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+.idea/
+
+# ---------- ML / DL Models ----------
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.joblib
+
+# ---------- TensorFlow / Keras ----------
+checkpoint/
+logs/
+tensorboard_logs/
+
+# ---------- Experiment Tracking ----------
+wandb/
+mlruns/
+
+# ---------- Generated Data ----------
+# Ignore generated datasets
+data/generated/
+
+# Ignore large CSV files
+# Uncomment if your datasets become large:
+# *.csv
+
+# ---------- Temporary Files ----------
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ---------- Python Cache ----------
+.pytest_cache/
+.mypy_cache/
+
+# ---------- Secrets ----------
+*.pem
+*.key
+credentials.json
